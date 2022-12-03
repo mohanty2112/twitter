@@ -85,19 +85,19 @@ function Feed() {
         <nav>
           <ul>
             <li>
-              <a href="#">For you</a>
+            For you
             </li>
             <li>
-              <a href="#">Trending</a>
+              Trending
             </li>
             <li>
-              <a href="#">News</a>
+              News
             </li>
             <li>
-              <a href="#">Sports</a>
+              Sports
             </li>
             <li>
-              <a href="#">Entertainment</a>
+              Entertainment
             </li>
           </ul>
         </nav>
@@ -108,7 +108,7 @@ function Feed() {
         <p className="banner_small">ICC T20 WorldCup . Sports</p>
         <p className="banner_large" onClick={counter1}>India vs Zimbabwe</p>
       </div>
-      
+
       {trendings.map((trend) => (
         <Trending data={trend} />
       ))}

@@ -10,7 +10,7 @@ ul{
     padding-left: 0 !important;
 }
 
-ul a{
+ul li{
     color: rgb(83, 100, 113);
 }
 
@@ -39,7 +39,7 @@ ul a{
     background-size:cover;
     background-image: url("https://c.ndtvimg.com/2022-10/leo8jm8_team-india-afp-_625x300_27_October_22.jpg?im=FaceCrop,algorithm=dnn");
     display: flex;
-    justify-content: end;
+    justify-content: flex-end;
     flex-direction: column;
     padding: 16px;
 }
