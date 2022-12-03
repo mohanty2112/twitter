@@ -108,6 +108,7 @@ function Feed() {
         <p className="banner_small">ICC T20 WorldCup . Sports</p>
         <p className="banner_large" onClick={counter1}>India vs Zimbabwe</p>
       </div>
+      
       {trendings.map((trend) => (
         <Trending data={trend} />
       ))}
